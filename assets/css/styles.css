@@ -277,9 +277,9 @@ video{
 }
 .img-carousel{
 	display: block;
-	height: 639px;
+	height: 470px;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	width: 100%;
 	background-repeat: no-repeat;
 }
