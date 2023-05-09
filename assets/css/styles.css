@@ -1,14 +1,14 @@
 body {
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: #ebe8e8 !important;
+	background-color: #fff !important;
 	background:url(../img/linea.png) center bottom no-repeat;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.8rem;
-	color: #fff !important;
+	color: #000 !important;
 }
 
 .h2, h2 {
@@ -37,10 +37,11 @@ header {
 }
 
 .info-carousel {
-	position: absolute;
-	z-index: 99999;
-	text-align: center;
-	color: #fff;
+    position: absolute;
+    z-index: 99999;
+    text-align: left;
+    color: #fff;
+    width: 100%;
 }
 
 header {
@@ -51,9 +52,11 @@ header {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #fff;
-	font-size: 4rem;
+	font-size: 3rem;
 	font-family: 'Roboto', sans-serif;
 	line-height: 5rem;
+	padding-bottom: 10px;
+	padding-left: 20px;
 }
 
 .info-carousel p {
@@ -73,19 +76,33 @@ header {
 	margin-bottom: 0;
 }
 
+.rrss{
+	background-color: #b8b4ab;
+}
 
 .rrss img {
 	height: 35px;
+	margin: 12px auto;
 	display: inline-block;
-	padding: 0px 20px;
+}
+.rrss .wrapper{
+	padding: 0px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 100%;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	margin-left: 10px;
 }
 
 .formulario {
-	background-color: #448aff;
+	background-color: #fff;
+	color: #000;
 }
 
 .formulario p {
-	color: #fff;
+	color: #000;
 	font-size: 0.9rem;
 	line-height: 1.5rem;
 	border-bottom: 1px solid #3c79e0;
@@ -277,7 +294,7 @@ video{
 }
 .img-carousel{
 	display: block;
-	height: 470px;
+	height: 250px;
 	background-size: cover;
 	background-position: top;
 	width: 100%;
@@ -288,6 +305,22 @@ video{
 	text-align: center;
 	padding: 30px;
 	fill: #000;
+}
+
+.jovenes-fernan h2{
+	background-color: #b3a8d2;
+}
+.ciudadanos-fernan h2{
+	background-color: #808e9c;
+}
+
+.jovenes-fernan h2,
+.ciudadanos-fernan h2{
+	text-align: left;
+	padding: 10px 30px;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 500;
 }
 
 
@@ -310,7 +343,7 @@ video{
 	}
 
 	.info-carousel .nombre-destacado {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	line-height: 4rem;
 	}
 
