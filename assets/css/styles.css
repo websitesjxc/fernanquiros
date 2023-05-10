@@ -316,11 +316,28 @@ video{
 
 .jovenes-fernan h2,
 .ciudadanos-fernan h2{
-	text-align: left;
+	text-align: center;
+	text-transform: uppercase;
 	padding: 10px 30px;
 	border-radius: 10px;
 	color: #fff;
 	font-weight: 500;
+}
+
+.btn-quiros{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: 3px solid #696969;
+	color: #696969;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.btn-quiros:hover{
+	background-color: #696969;
+	color: #fff;
 }
 
 
