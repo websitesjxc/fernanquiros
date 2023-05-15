@@ -63,6 +63,10 @@ header {
 	padding-left: 20px;
 }
 
+.sumate-whatsapp h1{
+	font-size: 2rem;
+}
+
 .info-carousel p {
 	font-size: 1.8rem;
 }
@@ -313,6 +317,10 @@ video{
 
 .jovenes-fernan h2{
 	background-color: #b3a8d2;
+}
+.ciudadanos-fernan,.jovenes-fernan{
+	width: 65%;
+    margin: 0 auto;
 }
 .ciudadanos-fernan h2{
 	background-color: #808e9c;
