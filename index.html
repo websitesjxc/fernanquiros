@@ -113,28 +113,6 @@
                      <a href="https://chat.whatsapp.com/HAFkniwPiUFAIbplnZ3yiM" class="btn btn-quiros">Comuna 15</a>
                   </div>
 
-                  <script>
-
-                     $(document).ready(function(){
-                        $(".norte").hide();
-                        $(".sur").hide();
-                        $(".centro").hide();
-                        $(".oeste").hide();
-
-                        $(".zona").click(function(){
-                           $(".norte").hide();
-                           $(".sur").hide();
-                           $(".centro").hide();
-                           $(".oeste").hide();
-
-                           // Get the text content for this item and then display this string class
-                           var text = $(this).text();
-                           $("." + text.toLowerCase()).show();
-                        })
-
-                     })
-
-                  </script>
 
 
                </div>
@@ -187,4 +165,27 @@
    
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script>
+
+   $(document).ready(function(){
+      $(".norte").hide();
+      $(".sur").hide();
+      $(".centro").hide();
+      $(".oeste").hide();
+
+      $(".zona").click(function(){
+         $(".norte").hide();
+         $(".sur").hide();
+         $(".centro").hide();
+         $(".oeste").hide();
+
+         // Get the text content for this item and then display this string class
+         var text = $(this).text();
+         $("." + text.toLowerCase()).show();
+      })
+
+   })
+
+</script>
+
 
