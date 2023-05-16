@@ -164,7 +164,7 @@ label {
 	border: 0;
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
-	height: 48px;
+	height: auto;
 }
 
 .btn:hover {
