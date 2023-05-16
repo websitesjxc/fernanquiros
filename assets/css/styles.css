@@ -230,7 +230,9 @@ transform-origin:0 0;
 .carousel-item .mobile {
 	display: none;
 }
-
+#ciudadanos-fernan{
+	cursor: pointer;
+}
 .carousel-fade .active.left {
         left:0;
         opacity:0;
