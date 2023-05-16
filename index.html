@@ -80,7 +80,7 @@
             </div><!-- /carrusel -->
          </div><!-- /col-4 -->
          <div class="col-md-6 pt-5">
-            <video poster="assets/img/quiros4.jpeg" preload="none" controls>
+            <video poster="assets/img/quiros4.jpeg" preload="none" id="video" controls>
                <source src="assets/fernanquiros2.mp4" type="video/mp4">
                Tu navegador no admite el elemento de video.
              </video>
@@ -163,6 +163,14 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script>
+
+
+document.getElementById('video').addEventListener('play', function() {
+  gtag('event', 'video_play', {
+    'event_category': 'Video',
+    'event_label': 'Fernan Quiroz',
+  });
+});
 
    $(document).ready(function(){
 
