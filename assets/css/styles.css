@@ -355,6 +355,10 @@ video{
 	margin-bottom: 10px;
 }
 
+#ciudadanos-fernan a:hover{
+	color: #fff !important;
+}
+
 .btn-quiros:hover{
 	background-color: #696969;
 	color: #fff;
